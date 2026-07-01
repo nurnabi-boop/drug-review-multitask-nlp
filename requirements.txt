@@ -1,0 +1,46 @@
+# core
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+joblib>=1.3
+tqdm>=4.66
+pyyaml>=6.0
+
+# nlp
+nltk>=3.8
+spacy>=3.7,<3.8
+scispacy==0.5.4
+# scispacy NER model (install separately):
+#   pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
+#   pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz
+
+# transformers
+torch>=2.2
+transformers>=4.40
+datasets>=2.18
+accelerate>=0.29
+sentencepiece>=0.2
+evaluate>=0.4
+
+# interpretability
+shap>=0.45
+lime>=0.2.0.1
+
+# embeddings / retrieval for streamlit similar-review search
+sentence-transformers>=2.7
+faiss-cpu>=1.8
+
+# viz
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+wordcloud>=1.9
+
+# app
+streamlit>=1.34
+streamlit-extras>=0.4
+
+# utilities
+rapidfuzz>=3.7
+python-dateutil>=2.9
